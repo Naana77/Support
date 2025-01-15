@@ -13,6 +13,7 @@
             min-height: 100vh;
             display: flex;
             flex-direction: column;
+            overflow-y: auto;
         }
         header {
             background-color: #4CAF50;
@@ -23,16 +24,14 @@
         nav {
             background: #333;
             color: white;
-            overflow: hidden;
             display: flex;
-            flex-wrap: wrap;
             justify-content: center;
+            flex-wrap: wrap;
         }
         nav a {
             color: white;
             text-decoration: none;
             padding: 14px 20px;
-            display: block;
         }
         nav a:hover {
             background: #575757;
@@ -81,12 +80,6 @@
         <h1>Welcome to the Healthcare App Support Page</h1>
         <p>Your guide to using the application effectively</p>
     </header>
-
-    <nav>
-        <a href="#getting-started">Getting Started</a>
-        <a href="#features">Features</a>
-        <a href="#support">Support</a>
-    </nav>
 
     <main>
         <section id="getting-started">
