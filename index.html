@@ -24,13 +24,15 @@
             background: #333;
             color: white;
             overflow: hidden;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
         nav a {
             color: white;
             text-decoration: none;
             padding: 14px 20px;
             display: block;
-            float: left;
         }
         nav a:hover {
             background: #575757;
@@ -62,6 +64,15 @@
         }
         .button:hover {
             background-color: #45a049;
+        }
+        @media (max-width: 768px) {
+            nav a {
+                padding: 10px 15px;
+                font-size: 14px;
+            }
+            main {
+                padding: 1rem;
+            }
         }
     </style>
 </head>
